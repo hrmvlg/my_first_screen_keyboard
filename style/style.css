@@ -1,10 +1,21 @@
+textarea{
+    display: block;
+    width: 800px;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+    padding: 7px;
+}
+
 .keyboard {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     padding: 5px 0;
-    background: #004134;
+    background: #737877;
     box-shadow:  0 0 50px rgba(0, 0, 0, 0.5);
     user-select: none;
     transition: bottom 0.4s;
@@ -20,7 +31,7 @@
 
 .keyboard__key{
     height: 45px;
-    width: 6%;
+    width: 4%;
     max-width: 90px;
     margin: 3px;
     border-radius: 4px;
